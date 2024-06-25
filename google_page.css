@@ -1,0 +1,72 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgba(255, 248, 220, 0.777);
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 500px;
+
+}
+.head{
+    height: 70px;
+    font: optional;
+    display: block;
+    font-family: sans-serif;
+    font-size: 550%;
+    color: coral;
+    align-self: auto;
+    text-align: center;
+    border: 25px;
+    
+
+
+}
+.int  {
+        margin: 20px 40px 30px 20px;
+        padding: 10px;
+        border: 1px solid coral;
+        border-radius: 40px;
+        outline: none;
+        height: 7vh;
+        width: 75vh;
+        font-size: medium;
+        display: flex;
+        
+    }
+    #fab{
+        
+            display: inline-block;
+            width:32px;
+            height:32px;
+            background-color: #3b5898;
+            color: aliceblue;
+            text-align: center;
+            line-height: 32px;
+            border-radius: 4px;
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+            font-size: 18px;
+            align-items: center;
+    }
+  
+    
+  
+   #git{
+    display: inline-block;
+    width:32px;
+    height:32px;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    align-items: center;
+}
+#git::before {
+    content: 'git';
+}
+
+   
