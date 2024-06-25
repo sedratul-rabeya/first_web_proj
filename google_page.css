@@ -35,38 +35,20 @@ body{
     }
     #fab{
         
-            display: inline-block;
-            width:32px;
-            height:32px;
-            background-color: #3b5898;
-            color: aliceblue;
-            text-align: center;
-            line-height: 32px;
-            border-radius: 4px;
-            font-family: Arial, sans-serif;
-            font-weight: bold;
-            font-size: 18px;
-            align-items: center;
+        font-size: 40px;
+        color: navy;
     }
   
     
-  
-   #git{
-    display: inline-block;
-    width:32px;
-    height:32px;
-    background-color: black;
-    color: aliceblue;
-    text-align: center;
-    line-height: 32px;
-    border-radius: 4px;
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-    align-items: center;
-}
-#git::before {
-    content: 'git';
-}
+   .youtube-icon {
+      font-size: 40px;
+      color: #FF0000; 
+   }
+   .icon-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    gap: 50px;
+   }
 
    
