@@ -1,31 +1,27 @@
-.body{background-color: blanchedalmond;
+
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
-
+    background-color:pink;
 }
 
-.flag{
-    align-items: center;
+.flag {
     position: relative;
-    width: 400px;
-    height: 240px;
-    background-color:green;
-    border: 1px solid greenyellow;
-    
-
+    width: 500px;
+    height: 300px;
+    background-color:#006a4e ;
+    border: 1px solid black;
 }
-.center{
+.center {
     position: absolute;
-    top: 30%;
-    left: 30%;
-    width: 50%;
-    height: 50%;
+    top: 50%;
+    left: 40%;
+    width: 170px;
+    height: 170px;
     background-color: red;
     border-radius: 50%;
-    
-
+    transform: translate(-50%,-50%);
 }
